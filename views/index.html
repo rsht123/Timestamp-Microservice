@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timestamp Microservice</title>
+    <link rel='stylesheet' type='text/css' href='/main.css'>
+</head>
+<body>
+    <div id='body'>
+        <h1 id='header'>Timestamp Microservice API</h1>
+        <h4>User Stories:</h4>
+        <p>You can pass a string as parameter.<br />It will check to see if it is a date or a unix time and will accordingly return both the Unix timestamp and a human readable form of that date.</p>
+        <div class='example'>
+            <h4>Example Usage:</h4>
+            <code>http://localhost:3000/12 january, 2017</code><br />
+            <code>http://localhost:3000/1484179200</code>
+            <h4>Example Output:</h4>
+            <code>{ "unix": 1484179200, "natural": "12 January, 2017" }</code>
+        </div>
+    </div>
+</body>
+</html>

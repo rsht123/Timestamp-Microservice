@@ -1,0 +1,27 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "Timestamp Project FCC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsht123/Timestamp-Microservice.git"
+  },
+  "engines": {
+    "node": "6.11.4"
+  },
+  "author": "Rishit Rathod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsht123/Timestamp-Microservice/issues"
+  },
+  "homepage": "https://github.com/rsht123/Timestamp-Microservice#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
